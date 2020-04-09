@@ -1,4 +1,8 @@
-<div class="row"><input type="text" id="addBurger"><button id="submitBurger">Submit</button></div>
+<div class="row">
+  <container style='margin:auto'>
+    <input type="text" id="addBurger"><button id="submitBurger">Submit</button>
+  </container>
+</div>
 
 
 <div class="row">
@@ -7,7 +11,7 @@
     {{#each burgers}}
     {{#unless devoured}}
     <div class="row">
-      <h4>{{name}}<button class='btn btn-primary' data-devoured=0 id={{id}}>Devour</button></h4>
+      <h4>{{name}}<br><button class='btn btn-primary' data-devoured=0 id={{id}}>Devour</button></h4>
     </div>
     {{/unless}}
     {{/each}}
@@ -17,9 +21,10 @@
     {{#each burgers}}
     {{#if devoured}}
     <div class="row">
-      <h4>{{name}}<button class='btn btn-primary' data-devoured=1 id={{id}}>Throw Up</button></h4>
+      <h4>{{name}}<br><button class='btn btn-primary' data-devoured=1 id={{id}}>Throw Up</button></h4>
     </div>
     {{/if}}
     {{/each}}
   </div>
+  </container>
 </div>

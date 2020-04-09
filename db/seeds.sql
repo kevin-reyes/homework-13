@@ -5,7 +5,7 @@ VALUES
 INSERT INTO burgers
     (name)
 VALUES
-    ('anchovie burger');
+    ('anchovy burger');
 INSERT INTO burgers
     (name)
 VALUES
@@ -13,12 +13,12 @@ VALUES
 INSERT INTO burgers
     (name)
 VALUES
-    ('Marilyn Manson');
+    ('bacon burger');
 INSERT INTO burgers
     (name)
 VALUES
-    ('Joe Biden');
+    ('veggie burger');
 INSERT INTO burgers
     (name)
 VALUES
-    ('Feel the Bern')
+    ('bob burger')
